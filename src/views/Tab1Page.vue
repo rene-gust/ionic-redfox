@@ -43,10 +43,10 @@ export default defineComponent({
       if (password.value === correctPassword) {
         const browser = InAppBrowser.create('https://x.com', '_self', {
           location: 'no',
-          clearcache: 'yes',
-          clearsessioncache: 'yes',
+          clearcache: 'no',
+          clearsessioncache: 'no',
           zoom: 'no',
-          hardwareback: 'yes',
+          hardwareback: 'no',
           mediaPlaybackRequiresUserAction: 'no',
           shouldPauseOnSuspend: 'no',
           closebuttoncaption: 'Close',
