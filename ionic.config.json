@@ -1,0 +1,7 @@
+{
+  "name": "RedFox",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
